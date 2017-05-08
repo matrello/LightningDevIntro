@@ -1,4 +1,4 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" controller="NewAlbumApexController">
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" controller="AlbumApexController">
     <aura:attribute name="newAlbum" type="Album__c"
 		 default="{ 'sobjectType': 'Album__c',
                          'Name': '', 'Author__c': '',
