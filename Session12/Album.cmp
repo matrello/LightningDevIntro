@@ -1,4 +1,4 @@
-<aura:component >
+<aura:component controller="AlbumApexController">
     <aura:attribute name="album" type="Album__c" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     

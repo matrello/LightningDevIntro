@@ -7,4 +7,4 @@
     handleUpdate : function(component, event, helper) {
     	helper.updateAlbum(component);
 	}
-})
+}) 
